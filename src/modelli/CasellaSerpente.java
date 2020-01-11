@@ -1,10 +1,10 @@
 package modelli;
 
-public class casellaSerpente extends casella {
+public class CasellaSerpente extends Casella {
 
 	int posizioneFinale;
 	
-	public casellaSerpente(int numero, int posizioneFinale) {
+	public CasellaSerpente(int numero, int posizioneFinale) {
 		super(numero);
 		this.posizioneFinale = posizioneFinale;
 	}

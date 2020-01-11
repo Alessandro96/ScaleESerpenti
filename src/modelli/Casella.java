@@ -1,8 +1,8 @@
 package modelli;
-public abstract class casella {
+public abstract class Casella {
 	private int numero;
 	
-	public casella(int numero) {
+	public Casella(int numero) {
 		this.numero = numero;
 	}
 	

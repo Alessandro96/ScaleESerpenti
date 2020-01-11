@@ -1,8 +1,8 @@
 package modelli;
 
-public class casellaNormale extends casella {
+public class CasellaNormale extends Casella {
 
-	public casellaNormale(int numero) {
+	public CasellaNormale(int numero) {
 		super(numero);
 	}
 
