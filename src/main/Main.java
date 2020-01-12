@@ -6,7 +6,7 @@ import modelli.*;
 public class Main {
 
 	public static void main(String[] args) {
-		Gioco gioco = CreazioneGioco.creazioneGioco();
+		Gioco gioco = CreazioneGiocoInuput.creazioneGioco();
 		Tabellone tabellone = gioco.getTabellone();
 		LinkedList<Giocatore> giocatori = gioco.getGiocatori();
 		

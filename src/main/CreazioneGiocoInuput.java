@@ -12,7 +12,7 @@ import modelli.Gioco;
 import modelli.Segnalino;
 import modelli.Tabellone;
 
-public class CreazioneGioco {
+public class CreazioneGiocoInuput {
 	public static Gioco creazioneGioco() {
 		Scanner scanner = new Scanner(System.in);
 		LinkedList <Giocatore> giocatori = new LinkedList<>();
