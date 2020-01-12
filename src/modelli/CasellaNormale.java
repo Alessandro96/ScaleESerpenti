@@ -7,8 +7,8 @@ public class CasellaNormale extends Casella {
 	}
 
 	@Override
-	public int getCasella() {
-		return super.getNumero();
+	public Casella getCasella(Tabellone tabellone) {
+		return this;
 	}
 
 	@Override

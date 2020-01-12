@@ -10,8 +10,9 @@ int posizioneFinale;
 	}
 	
 	@Override
-	public int getCasella() {
-		return this.posizioneFinale;
+	public Casella getCasella(Tabellone tabellone) {
+		System.out.println("Ti sei fermato ai piedi di una scala, arrivi sulla casella " + this.posizioneFinale);
+		return tabellone.getCaselle().get(this.posizioneFinale);
 	}
 
 	@Override

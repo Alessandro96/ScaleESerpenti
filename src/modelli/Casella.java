@@ -14,7 +14,7 @@ public abstract class Casella {
 		return this.numero;
 	}
 	
-	public abstract int getCasella();
+	public abstract Casella getCasella(Tabellone tabellone);
 	
 	@Override
 	public abstract String toString();

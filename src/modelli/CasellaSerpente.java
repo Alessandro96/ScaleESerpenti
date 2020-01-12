@@ -10,8 +10,9 @@ public class CasellaSerpente extends Casella {
 	}
 	
 	@Override
-	public int getCasella() {
-		return this.posizioneFinale;
+	public Casella getCasella(Tabellone tabellone) {
+		System.out.println("Ti sei fermato sulla testa di un serpente, torni alla casella " + this.posizioneFinale);
+		return tabellone.getCaselle().get(this.posizioneFinale);
 	}
 
 	@Override
