@@ -1,10 +1,10 @@
 package modelli;
 
-public class CasellaSerpente extends Casella {
+public class CasellaScala extends Casella{
 
-	int posizioneFinale;
+int posizioneFinale;
 	
-	public CasellaSerpente(int numero, int posizioneFinale) {
+	public CasellaScala(int numero, int posizioneFinale) {
 		super(numero);
 		this.posizioneFinale = posizioneFinale;
 	}
@@ -16,7 +16,7 @@ public class CasellaSerpente extends Casella {
 
 	@Override
 	public String toString() {
-		return "Sono la casella numero " +super.getNumero()+ " e sono un serpente. "
+		return "Sono la casella numero " +super.getNumero()+ " e sono una scala. "
 				+ "La mia casella di destinazione e' la numero " + this.posizioneFinale;
 	}
 

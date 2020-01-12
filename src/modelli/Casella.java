@@ -15,4 +15,7 @@ public abstract class Casella {
 	}
 	
 	public abstract int getCasella();
+	
+	@Override
+	public abstract String toString();
 }
